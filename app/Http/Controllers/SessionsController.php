@@ -17,10 +17,6 @@ class SessionsController extends Controller
         return view('sessions.create');
     }
 
-    public function FBlogin(){
-        return view('FBlogin');
-    }
-
     public function store(){
         if(auth()->check()){
             return back();
