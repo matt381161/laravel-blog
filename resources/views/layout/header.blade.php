@@ -9,6 +9,7 @@
         <div class="col-4 d-flex justify-content-end align-items-center">
             @if(!Auth::check())
             <a class="btn btn-sm btn-outline-secondary" href="/login">Log In</a>
+            &nbsp
             <a class="btn btn-sm btn-outline-secondary" href="/register">Sign up</a>
             @endif
         </div>

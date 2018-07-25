@@ -1,11 +1,11 @@
 /* stylelint-disable selector-list-comma-newline-after */
 body{
-    background-color:rgba(255,255,0,0.3) ;
+    background-color:rgba(255,255,255,0.3) ;
 }
 .blog-header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
-    background-color:rgba(0,255,0,0.3);
+    background-color:rgba(0,255,255,0.3);
 }
 
 .blog-header-logo {
